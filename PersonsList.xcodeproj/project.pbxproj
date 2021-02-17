@@ -16,6 +16,7 @@
 		046B3F4B25DD8AC70095AA93 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B3F4A25DD8AC70095AA93 /* DataManager.swift */; };
 		046B3F5025DD9F1A0095AA93 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B3F4F25DD9F1A0095AA93 /* TabBarViewController.swift */; };
 		046B3F5425DDB7C10095AA93 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B3F5325DDB7C10095AA93 /* PersonModel.swift */; };
+		046B3F5725DDBFA80095AA93 /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B3F5625DDBFA70095AA93 /* PersonDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		046B3F4A25DD8AC70095AA93 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		046B3F4F25DD9F1A0095AA93 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		046B3F5325DDB7C10095AA93 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		046B3F5625DDBFA70095AA93 /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				046B3F3325DD86700095AA93 /* Main.storyboard */,
-				046B3F4F25DD9F1A0095AA93 /* TabBarViewController.swift */,
-				046B3F4525DD89450095AA93 /* PersonsListViewController.swift */,
-				046B3F4A25DD8AC70095AA93 /* DataManager.swift */,
-				046B3F5325DDB7C10095AA93 /* PersonModel.swift */,
+				046B3F5C25DDCFB60095AA93 /* ViewControllers */,
+				046B3F5E25DDCFEC0095AA93 /* Data */,
 				046B3F3825DD86700095AA93 /* LaunchScreen.storyboard */,
 				046B3F3625DD86700095AA93 /* Assets.xcassets */,
 				046B3F3B25DD86700095AA93 /* Info.plist */,
@@ -82,6 +82,25 @@
 				046B3F2F25DD866F0095AA93 /* SceneDelegate.swift */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		046B3F5C25DDCFB60095AA93 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				046B3F4F25DD9F1A0095AA93 /* TabBarViewController.swift */,
+				046B3F4525DD89450095AA93 /* PersonsListViewController.swift */,
+				046B3F5625DDBFA70095AA93 /* PersonDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		046B3F5E25DDCFEC0095AA93 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				046B3F4A25DD8AC70095AA93 /* DataManager.swift */,
+				046B3F5325DDB7C10095AA93 /* PersonModel.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +179,7 @@
 				046B3F4625DD89450095AA93 /* PersonsListViewController.swift in Sources */,
 				046B3F5025DD9F1A0095AA93 /* TabBarViewController.swift in Sources */,
 				046B3F3025DD866F0095AA93 /* SceneDelegate.swift in Sources */,
+				046B3F5725DDBFA80095AA93 /* PersonDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
