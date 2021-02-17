@@ -14,6 +14,8 @@
 		046B3F3A25DD86700095AA93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046B3F3825DD86700095AA93 /* LaunchScreen.storyboard */; };
 		046B3F4625DD89450095AA93 /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B3F4525DD89450095AA93 /* PersonsListViewController.swift */; };
 		046B3F4B25DD8AC70095AA93 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B3F4A25DD8AC70095AA93 /* DataManager.swift */; };
+		046B3F5025DD9F1A0095AA93 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B3F4F25DD9F1A0095AA93 /* TabBarViewController.swift */; };
+		046B3F5425DDB7C10095AA93 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B3F5325DDB7C10095AA93 /* PersonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		046B3F3B25DD86700095AA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		046B3F4525DD89450095AA93 /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
 		046B3F4A25DD8AC70095AA93 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		046B3F4F25DD9F1A0095AA93 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		046B3F5325DDB7C10095AA93 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				046B3F3325DD86700095AA93 /* Main.storyboard */,
-				046B3F4A25DD8AC70095AA93 /* DataManager.swift */,
+				046B3F4F25DD9F1A0095AA93 /* TabBarViewController.swift */,
 				046B3F4525DD89450095AA93 /* PersonsListViewController.swift */,
+				046B3F4A25DD8AC70095AA93 /* DataManager.swift */,
+				046B3F5325DDB7C10095AA93 /* PersonModel.swift */,
 				046B3F3825DD86700095AA93 /* LaunchScreen.storyboard */,
 				046B3F3625DD86700095AA93 /* Assets.xcassets */,
 				046B3F3B25DD86700095AA93 /* Info.plist */,
@@ -148,9 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046B3F5425DDB7C10095AA93 /* PersonModel.swift in Sources */,
 				046B3F2E25DD866F0095AA93 /* AppDelegate.swift in Sources */,
 				046B3F4B25DD8AC70095AA93 /* DataManager.swift in Sources */,
 				046B3F4625DD89450095AA93 /* PersonsListViewController.swift in Sources */,
+				046B3F5025DD9F1A0095AA93 /* TabBarViewController.swift in Sources */,
 				046B3F3025DD866F0095AA93 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
