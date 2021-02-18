@@ -66,7 +66,8 @@
 			children = (
 				046B3F3325DD86700095AA93 /* Main.storyboard */,
 				046B3F5C25DDCFB60095AA93 /* ViewControllers */,
-				046B3F5E25DDCFEC0095AA93 /* Data */,
+				046B3F4A25DD8AC70095AA93 /* DataManager.swift */,
+				046B3F5325DDB7C10095AA93 /* PersonModel.swift */,
 				046B3F3825DD86700095AA93 /* LaunchScreen.storyboard */,
 				046B3F3625DD86700095AA93 /* Assets.xcassets */,
 				046B3F3B25DD86700095AA93 /* Info.plist */,
@@ -92,15 +93,6 @@
 				046B3F5625DDBFA70095AA93 /* PersonDetailsViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		046B3F5E25DDCFEC0095AA93 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				046B3F4A25DD8AC70095AA93 /* DataManager.swift */,
-				046B3F5325DDB7C10095AA93 /* PersonModel.swift */,
-			);
-			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
